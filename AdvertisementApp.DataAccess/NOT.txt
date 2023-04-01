@@ -1,0 +1,15 @@
+﻿//dataaccess kurulacak 
+NuGet\Install-Package Microsoft.EntityFrameworkCore
+NuGet\Install-Package Microsoft.EntityFrameworkCore.Design
+NuGet\Install-Package Microsoft.EntityFrameworkCore.SqlServer
+NuGet\Install-Package Microsoft.EntityFrameworkCore.Tools
+
+
+
+// UI tarafında kurulacaklar
+NuGet\Install-Package Microsoft.EntityFrameworkCore.SqlServer
+NuGet\Install-Package Microsoft.EntityFrameworkCore.Tools
+
+
+//Migrationu dataaccesde kurmak ıcın
+add-migration InitialCreated -outputDir Migrations
